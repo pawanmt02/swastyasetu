@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "title": "ಸ್ವಾಸ್ಥ್ಯಸೇತು",
+    "dashboard": "ಡ್ಯಾಶ್‌ಬೋರ್ಡ್",
+    "intake": "ಹೊಸ ರೋಗಿ",
+    "language": "ಭಾಷೆ"
+  },
+  "dashboard": {
+    "title": "ಮೆಡ್‌ಟ್ರಯಾಜ್ ಎಐ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್",
+    "subtitle": "ನೈಜ-ಸಮಯದ ರೋಗಿಗಳ ಟ್ರಯಾಜ್ ಅವಲೋಕನ",
+    "totalPatients": "ಒಟ್ಟು ರೋಗಿಗಳು",
+    "critical": "ಗಂಭೀರ",
+    "urgent": "ತುರ್ತು",
+    "standard": "ಸಾಮಾನ್ಯ",
+    "noPatients": "ಈ ವರ್ಗದಲ್ಲಿ ರೋಗಿಗಳಿಲ್ಲ.",
+    "loading": "ರೋಗಿಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ...",
+    "refreshing": "ಡೇಟಾ ರಿಫ್ರೆಶ್ ಮಾಡಲಾಗುತ್ತಿದೆ..."
+  },
+  "triage": {
+    "critical": "ಗಂಭೀರ",
+    "urgent": "ತುರ್ತು",
+    "standard": "ಸಾಮಾನ್ಯ",
+    "riskScore": "ಅಪಾಯದ ಅಂಕ",
+    "viewDetails": "ವಿವರಗಳನ್ನು ವೀಕ್ಷಿಸಿ"
+  },
+  "modal": {
+    "patientDetails": "ರೋಗಿಯ ವಿವರಗಳು",
+    "riskBreakdown": "ಅಪಾಯದ ವಿಶ್ಲೇಷಣೆ",
+    "vitals": "ಪ್ರಮುಖ ಲಕ್ಷಣಗಳು (Vitals)",
+    "symptoms": "ರೋಗಲಕ್ಷಣಗಳು",
+    "recommendation": "ಎಐ ಶಿಫಾರಸು",
+    "close": "ಮುಚ್ಚಿ",
+    "age": "ವಯಸ್ಸು",
+    "gender": "ಲಿಂಗ",
+    "temperature": "ತಾಪಮಾನ",
+    "heartRate": "ಹೃದಯ ಬಡಿತ",
+    "spo2": "SpO2",
+    "bloodPressure": "ರಕ್ತದೊತ್ತಡ",
+    "respiratoryRate": "ಉಸಿರಾಟದ ದರ",
+    "chiefComplaint": "ಮುಖ್ಯ ದೂರು",
+    "contributionToRisk": "ಅಪಾಯಕ್ಕೆ ಕೊಡುಗೆ"
+  },
+  "intake": {
+    "title": "ಹೊಸ ರೋಗಿಯ ನೋಂದಣಿ",
+    "subtitle": "ಮೆಡ್‌ಟ್ರಯಾಜ್ ಎಐ ಮೌಲ್ಯಮಾಪನಕ್ಕಾಗಿ ರೋಗಿಯ ವಿವರಗಳನ್ನು ನಮೂದಿಸಿ",
+    "patientInfo": "ರೋಗಿಯ ಮಾಹಿತಿ",
+    "vitals": "ಪ್ರಮುಖ ಲಕ್ಷಣಗಳು",
+    "symptoms": "ರೋಗಲಕ್ಷಣಗಳು",
+    "submit": "ಮೌಲ್ಯಮಾಪನಕ್ಕಾಗಿ ಸಲ್ಲಿಸಿ",
+    "submitting": "ಸಲ್ಲಿಸಲಾಗುತ್ತಿದೆ...",
+    "name": "ಪೂರ್ಣ ಹೆಸರು",
+    "age": "ವಯಸ್ಸು",
+    "gender": "ಲಿಂಗ",
+    "male": "ಪುರುಷ",
+    "female": "ಮಹಿಳೆ",
+    "other": "ಇತರ",
+    "temperature": "ತಾಪಮಾನ (°F)",
+    "heartRate": "ಹೃದಯ ಬಡಿತ (BPM)",
+    "spo2": "SpO2 (%)",
+    "bpSystolic": "ಸಿಸ್ಟೊಲಿಕ್ ಬಿಪಿ (mmHg)",
+    "bpDiastolic": "ಡಯಾಸ್ಟೊಲಿಕ್ ಬಿಪಿ (mmHg)",
+    "respiratoryRate": "ಉಸಿರಾಟದ ದರ (/min)",
+    "symptomsList": {
+      "Chest Pain": "ಎದೆ ನೋವು",
+      "Shortness of Breath": "ಉಸಿರಾಟದ ತೊಂದರೆ",
+      "Fever": "ಜ್ವರ",
+      "Headache": "ತಲೆನೋವು",
+      "Nausea": "ವಾಕರಿಕೆ",
+      "Dizziness": "ತಲೆತಿರುಗುವಿಕೆ",
+      "Abdominal Pain": "ಹೊಟ್ಟೆ ನೋವು",
+      "Fatigue": "ಆಯಾಸ",
+      "Cough": "ಕೆಮ್ಮು",
+      "Trauma/Injury": "ಗಾಯ"
+    },
+    "chiefComplaint": "ಮುಖ್ಯ ದೂರು / ಟಿಪ್ಪಣಿಗಳು",
+    "voiceInput": "ಧ್ವನಿ ಇನ್ಪುಟ್",
+    "startListening": "ಆಲಿಸಲು ಪ್ರಾರಂಭಿಸಿ",
+    "stopListening": "ಆಲಿಸುವುದನ್ನು ನಿಲ್ಲಿಸಿ",
+    "success": "ರೋಗಿಯನ್ನು ಯಶಸ್ವಿಯಾಗಿ ನೋಂದಾಯಿಸಲಾಗಿದೆ.",
+    "error": "ರೋಗಿಯನ್ನು ನೋಂದಾಯಿಸುವಲ್ಲಿ ದೋಷ."
+  },
+  "stats": {
+    "totalPatients": "ಒಟ್ಟು ರೋಗಿಗಳು",
+    "criticalCount": "ಗಂಭೀರ ರೋಗಿಗಳ ಸಂಖ್ಯೆ",
+    "urgentCount": "ತುರ್ತು ರೋಗಿಗಳ ಸಂಖ್ಯೆ",
+    "standardCount": "ಸಾಮಾನ್ಯ ರೋಗಿಗಳ ಸಂಖ್ಯೆ"
+  }
+}

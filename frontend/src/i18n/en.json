@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "title": "SwasthyaSetu",
+    "dashboard": "Dashboard",
+    "intake": "New Patient",
+    "language": "Language"
+  },
+  "dashboard": {
+    "title": "MedTriage AI Dashboard",
+    "subtitle": "Real-time patient triage overview",
+    "totalPatients": "Total Patients",
+    "critical": "Critical",
+    "urgent": "Urgent",
+    "standard": "Standard",
+    "noPatients": "No patients in this category.",
+    "loading": "Loading patients...",
+    "refreshing": "Refreshing data..."
+  },
+  "triage": {
+    "critical": "Critical",
+    "urgent": "Urgent",
+    "standard": "Standard",
+    "riskScore": "Risk Score",
+    "viewDetails": "View Details"
+  },
+  "modal": {
+    "patientDetails": "Patient Details",
+    "riskBreakdown": "Risk Breakdown",
+    "vitals": "Vital Signs",
+    "symptoms": "Symptoms",
+    "recommendation": "AI Recommendation",
+    "close": "Close",
+    "age": "Age",
+    "gender": "Gender",
+    "temperature": "Temperature",
+    "heartRate": "Heart Rate",
+    "spo2": "SpO2",
+    "bloodPressure": "Blood Pressure",
+    "respiratoryRate": "Respiratory Rate",
+    "chiefComplaint": "Chief Complaint",
+    "contributionToRisk": "Contribution to Risk"
+  },
+  "intake": {
+    "title": "New Patient Intake",
+    "subtitle": "Enter patient details for MedTriage AI evaluation",
+    "patientInfo": "Patient Information",
+    "vitals": "Vital Signs",
+    "symptoms": "Symptoms",
+    "submit": "Submit for Evaluation",
+    "submitting": "Submitting...",
+    "name": "Full Name",
+    "age": "Age",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "temperature": "Temperature (°F)",
+    "heartRate": "Heart Rate (BPM)",
+    "spo2": "SpO2 (%)",
+    "bpSystolic": "Systolic BP (mmHg)",
+    "bpDiastolic": "Diastolic BP (mmHg)",
+    "respiratoryRate": "Respiratory Rate (/min)",
+    "symptomsList": {
+      "Chest Pain": "Chest Pain",
+      "Shortness of Breath": "Shortness of Breath",
+      "Fever": "Fever",
+      "Headache": "Headache",
+      "Nausea": "Nausea",
+      "Dizziness": "Dizziness",
+      "Abdominal Pain": "Abdominal Pain",
+      "Fatigue": "Fatigue",
+      "Cough": "Cough",
+      "Trauma/Injury": "Trauma/Injury"
+    },
+    "chiefComplaint": "Chief Complaint / Notes",
+    "voiceInput": "Voice Input",
+    "startListening": "Start Listening",
+    "stopListening": "Stop Listening",
+    "success": "Patient successfully registered.",
+    "error": "Error registering patient."
+  },
+  "stats": {
+    "totalPatients": "Total Patients",
+    "criticalCount": "Critical Count",
+    "urgentCount": "Urgent Count",
+    "standardCount": "Standard Count"
+  }
+}

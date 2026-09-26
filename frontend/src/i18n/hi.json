@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "title": "स्वास्थ्यसेतु",
+    "dashboard": "डैशबोर्ड",
+    "intake": "नया मरीज",
+    "language": "भाषा"
+  },
+  "dashboard": {
+    "title": "मेडट्रायज एआई डैशबोर्ड",
+    "subtitle": "रीयल-टाइम मरीज ट्रायज अवलोकन",
+    "totalPatients": "कुल मरीज",
+    "critical": "गंभीर",
+    "urgent": "तत्काल",
+    "standard": "सामान्य",
+    "noPatients": "इस श्रेणी में कोई मरीज नहीं।",
+    "loading": "मरीजों को लोड किया जा रहा है...",
+    "refreshing": "डेटा रीफ्रेश किया जा रहा है..."
+  },
+  "triage": {
+    "critical": "गंभीर",
+    "urgent": "तत्काल",
+    "standard": "सामान्य",
+    "riskScore": "जोखिम स्कोर",
+    "viewDetails": "विवरण देखें"
+  },
+  "modal": {
+    "patientDetails": "मरीज का विवरण",
+    "riskBreakdown": "जोखिम विश्लेषण",
+    "vitals": "महत्वपूर्ण संकेत (Vitals)",
+    "symptoms": "लक्षण",
+    "recommendation": "एआई अनुशंसा",
+    "close": "बंद करें",
+    "age": "उम्र",
+    "gender": "लिंग",
+    "temperature": "तापमान",
+    "heartRate": "हृदय गति",
+    "spo2": "SpO2",
+    "bloodPressure": "रक्तचाप",
+    "respiratoryRate": "श्वसन दर",
+    "chiefComplaint": "मुख्य शिकायत",
+    "contributionToRisk": "जोखिम में योगदान"
+  },
+  "intake": {
+    "title": "नए मरीज का पंजीकरण",
+    "subtitle": "मेडट्रायज एआई मूल्यांकन के लिए मरीज का विवरण दर्ज करें",
+    "patientInfo": "मरीज की जानकारी",
+    "vitals": "महत्वपूर्ण संकेत",
+    "symptoms": "लक्षण",
+    "submit": "मूल्यांकन के लिए सबमिट करें",
+    "submitting": "सबमिट किया जा रहा है...",
+    "name": "पूरा नाम",
+    "age": "उम्र",
+    "gender": "लिंग",
+    "male": "पुरुष",
+    "female": "महिला",
+    "other": "अन्य",
+    "temperature": "तापमान (°F)",
+    "heartRate": "हृदय गति (BPM)",
+    "spo2": "SpO2 (%)",
+    "bpSystolic": "सिस्टोलिक बीपी (mmHg)",
+    "bpDiastolic": "डायस्टोलिक बीपी (mmHg)",
+    "respiratoryRate": "श्वसन दर (/min)",
+    "symptomsList": {
+      "Chest Pain": "सीने में दर्द",
+      "Shortness of Breath": "सांस लेने में तकलीफ",
+      "Fever": "बुखार",
+      "Headache": "सिरदर्द",
+      "Nausea": "जी मिचलाना",
+      "Dizziness": "चक्कर आना",
+      "Abdominal Pain": "पेट दर्द",
+      "Fatigue": "थकान",
+      "Cough": "खांसी",
+      "Trauma/Injury": "चोट"
+    },
+    "chiefComplaint": "मुख्य शिकायत / नोट्स",
+    "voiceInput": "वॉयस इनपुट",
+    "startListening": "सुनना शुरू करें",
+    "stopListening": "सुनना बंद करें",
+    "success": "मरीज सफलतापूर्वक पंजीकृत।",
+    "error": "मरीज पंजीकरण में त्रुटि।"
+  },
+  "stats": {
+    "totalPatients": "कुल मरीज",
+    "criticalCount": "गंभीर मरीजों की संख्या",
+    "urgentCount": "तत्काल मरीजों की संख्या",
+    "standardCount": "सामान्य मरीजों की संख्या"
+  }
+}
