@@ -1,8 +1,16 @@
+import os
 import datetime
 from sqlalchemy import create_engine, Column, Integer, String, Float, DateTime
 from sqlalchemy.orm import declarative_base, sessionmaker
 
-SQLALCHEMY_DATABASE_URL = "sqlite:///./triage.db"
+# Use /tmp on Vercel (serverless has read-only filesystem except /tmp)
+# Use local directory for development
+if os.environ.get("VERCEL"):
+    DB_PATH = "/tmp/triage.db"
+else:
+    DB_PATH = os.path.join(os.path.dirname(__file__), '..', 'triage.db')
+
+SQLALCHEMY_DATABASE_URL = f"sqlite:///{DB_PATH}"
 
 engine = create_engine(
     SQLALCHEMY_DATABASE_URL, connect_args={"check_same_thread": False}
